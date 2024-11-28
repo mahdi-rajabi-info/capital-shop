@@ -1,0 +1,65 @@
+/*768 to 992*/
+@media screen and (max-width: 992px) {
+
+    body {
+        background: salmon;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+
+    .header__area__content {
+        justify-content: center;
+    }
+
+    .header__area__link {
+        padding:15px 10px;
+    }
+    
+    .navigation__list{
+        display: none;
+    }
+    .nav__access{
+        display: none;
+    }
+    .navbar{
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+        display: block;
+    }
+
+    .slide {
+        min-height: 600px;
+        background: url("../img/h1_hero2.jpg") no-repeat 40% 0 / cover;
+    }
+    .hero__content{
+        height: 600px;
+    }
+    .slider__text {
+        font-size: 50px;
+    }
+
+    .slider__title {
+        font-size: 40px;
+    }
+
+    .slider__caption {
+        font-size: 18px;
+    }
+
+    .slider__btn {
+        padding: 15px 50px;
+    }
+    .discount--packages {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .discount--package{
+        flex-basis: 48%;
+    }
+
+
+    }

@@ -1,0 +1,420 @@
+@import "normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Jost", sans-serif;
+    src: url("../font/Jost-Medium.ttf") format(".ttf");
+}
+
+body {
+    font-family: jost, sans-serif;
+    background: skyblue;
+    height: 4000px;
+}
+
+/*1200 to ...*/
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 .75rem;
+    position: relative;
+}
+
+.header {
+    background: #FFF;
+}
+
+.header__area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.header__area__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__area__link {
+    display: block;
+    padding: 15px 15px;
+    color: #333;
+}
+
+
+.header__area__icon {
+    display: block;
+    padding: 10px;
+    color: #666;
+}
+
+
+.nav {
+
+
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.nav__logo {
+    flex-basis: auto;
+
+}
+
+.logo__img {
+
+
+}
+
+.navbar {
+    display: none;
+}
+
+.navigation {
+    flex-grow: 1;
+    max-width: 700px;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar__item {
+
+}
+
+.navbar__link {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+
+}
+
+.nav__access {
+    font-size: 20px;
+    color: #555;
+}
+
+.nav__access__icon {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.discount__box {
+    background: #000;
+    color: #FFF;
+
+}
+
+.discount__text {
+    text-align: center;
+    line-height: 30px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.discount__link {
+    color: #CEBD9C;
+    border-bottom: 1px solid #CEBD9C;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
+}
+
+.hero {
+
+}
+
+.slider {
+    width: 100%;
+    float: left;
+}
+
+
+.slide {
+    width: 100%;
+    min-height: 700px;
+    background: url("../img/h1_hero2.jpg") no-repeat center center;
+}
+
+.hero__content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero__title {
+    max-width: 50%;
+    width: 600px;
+    text-align: center;
+}
+
+.slider__text {
+    color: #FF2020;
+    font-size: 55px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 500;
+
+}
+
+.slider__title {
+    font-size: 55px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.slider__caption {
+    font-size: 20px;
+    color: #74706B;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.slider__btn {
+    padding: 15px 50px;
+    margin-top: 10px;
+    background: #111;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+.discount--packages {
+    padding-top: 40px;
+    /*border: 5px solid #000;*/
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.discount--package {
+    position: relative;
+    overflow: hidden;
+    /*padding: 10px;*/
+
+}
+
+.package__img {
+    display: block;
+    /*border: 10px solid #000;*/
+    transition: all linear 400ms;
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.package__text {
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    color: #FFF;
+    transition: all 400ms linear;
+}
+
+.discount--package:hover .package__text {
+    bottom: 0;
+}
+
+.discount--package:hover .package__img {
+    transform: scale(1.1);
+}
+
+.package__title {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.package__btn {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.category {
+    /*border: 1px solid #000;*/
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.category__title {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.category__list {
+    display: flex;
+    align-items: center;
+}
+
+.category__item {
+    display: block;
+    padding: 20px 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.category__item:hover {
+    /*border-bottom: 1px solid #ff253a;*/
+    /*text-decoration: 1px underline;*/
+}
+
+.products {
+
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    /*flex-wrap: wrap;*/
+    margin-top: 50px;
+    /*gap: 10px;*/
+}
+
+.product {
+    flex-basis: 25%;
+    text-align: center;
+    position: relative;
+
+}
+
+.product:hover .product__icon {
+    visibility: visible;
+}
+
+.product__picture {
+    padding: 10px;
+    /*border: 1px solid #000;*/
+}
+
+.product__icon {
+    background: #FFF;
+    width: fit-content;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    visibility: hidden;
+    transition: visibility 200ms linear;
+    display: flex;
+    justify-content: space-evenly;
+    /*width: fit-content;*/
+    /*padding: 10px 0;*/
+}
+
+.product__icon a {
+    display: block;
+    color: #555;
+    padding: 15px 15px;
+    transition: background-color 300ms linear;
+    font-weight: 501;
+    /*border: 1px solid #000;*/
+}
+
+.product__icon a:hover {
+    background: #ff253a;
+    color: #FFF;
+}
+
+.product__info {
+
+    /*margin: 10px 0;*/
+
+}
+
+.product__name {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.disprice {
+    font-size: 20px;
+
+}
+
+.price {
+
+    font-size: 20px;
+}
+
+.comments{
+    margin-top: 50px;
+    background: #CEBD9C;
+    padding: 100px 0;
+}
+.comment{
+text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    /*border: 1px solid #000;*/
+}
+.comment__title{
+font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+
+}
+.comment__text{
+    font-size: 22px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.comment__profile{
+    /*border: 1px solid #000;*/
+    width: fit-content;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    /*width: 20%;*/
+}
+
+.profile__img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile__info{
+    margin-left: 10px;
+
+}
+.profile__name{
+    margin: 10px 0;
+}
+.profile__job{
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+/* 992 to 1200*/
+@media screen and (max-width: 1200px) {
+    body {
+        background: #40cc10;
+    }
+
+    .container {
+        max-width: 980px;
+    }
+
+    .navbar__link {
+        padding: 10px 5px;
+        font-size: 16px;
+
+    }
+
+    .nav__access__icon {
+        padding: 10px;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product {
+        /*flex-basis: 30%;*/
+    }
+
+}
