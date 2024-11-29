@@ -11,30 +11,46 @@
     .header__area__menu{
         display: none;
     }
+
     .header__area__social{
         margin: 0 auto;
+    }
+
+    .discount__text{
+        max-width: 450px;
+
     }
 
     .slide {
         min-height: 500px;
     }
 
+    .hero__content{
+        height: 500px;
+    }
+
+    .hero__title{
+        width: 560px;
+        text-align: center;
+    }
 
     .slider__text {
-        font-size: 40px;
+        font-size: 2.8rem;
     }
 
     .slider__title {
-        font-size: 30px;
+        font-size: 1.7rem;
+
     }
 
     .slider__caption {
-        margin: 10px 0;
+        margin: .6rem auto;
         line-height: 25px;
+        max-width: 250px;
     }
 
     .slider__btn {
-        padding: 10px 40px;
+        padding: 1rem 2.5rem;
         margin-top: 5px;
     }
 
@@ -43,6 +59,10 @@
     }
     .category__list {
         margin-top: 20px;
+    }
+    .news__card{
+        flex-basis: 70%;
+        margin: 0 auto;
     }
 }
 
@@ -69,7 +89,6 @@
 
     }
 
-
     .slide {
         min-height: 410px;
     }
@@ -83,28 +102,30 @@
     }
     
     .slider__text {
-        font-size: 50px;
+        font-size: 3rem;
     }
 
     .slider__title {
-        font-size: 35px;
+        font-size: 2.2rem;
     }
 
     .slider__caption {
-        margin: 20px auto;
+        margin: 1.2rem auto;
         line-height: 30px;
         max-width: 400px;
     }
 
     .slider__btn {
-        padding: 15px 40px;
-        margin-top: 5px;
+        padding: .8rem 2rem;
     }
 
     .discount--package{
         flex-basis: 80%;
     }
-
+    .news__card{
+        flex-basis: 90%;
+        margin: 0 auto;
+    }
 
 }
 
@@ -121,8 +142,18 @@
     .container {
         max-width: 100%;
     }
+
+    .discount__text{
+        max-width: 290px;
+
+    }
+
     .discount--package{
         flex-basis: 100%;
+    }
+    .news__card{
+        flex-basis: 100%;
+        margin: 0 auto;
     }
 
 }

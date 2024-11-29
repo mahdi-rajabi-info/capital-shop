@@ -9,13 +9,25 @@
     }
 
     .navbar__link {
-        padding: 10px 5px;
-        font-size: 16px;
+        padding: .6rem .3rem;
+        font-size: 1rem;
 
     }
 
     .nav__access__icon {
-        padding: 10px;
+        padding: .5rem;
+    }
+    .slider__text {
+        font-size: 3rem;
+    }
+
+    .slider__title {
+        font-size: 2.5rem;
+    }
+
+    .slider__caption {
+        font-size: 1rem;
+        max-width: 400px;
     }
 
     .products {
