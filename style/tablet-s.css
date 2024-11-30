@@ -123,6 +123,7 @@
     }
 
     .slider__caption {
+        display: none;
         margin: 1.2rem auto;
         line-height: 30px;
         max-width: 400px;
