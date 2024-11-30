@@ -1,16 +1,17 @@
 /* 992 to 1200*/
 @media screen and (max-width: 1200px) {
     body {
-        background: #40cc10;
+        /*background: #40cc10;*/
     }
-
     .container {
-        max-width: 980px;
+        max-width: 990px;
     }
-
+    .navigation {
+        max-width: 570px;
+    }
     .navbar__link {
         padding: .6rem .3rem;
-        font-size: 1rem;
+        font-size: .9rem;
 
     }
 
@@ -37,6 +38,9 @@
 
     .product {
         /*flex-basis: 30%;*/
+    }
+    .comment {
+        width: 70%;
     }
 
 }
