@@ -1,7 +1,7 @@
 /*375 to 768*/
 @media screen and (max-width: 768px) {
     body {
-        /*background: deepskyblue;*/
+        background: deepskyblue;
     }
 
     .container {
@@ -89,7 +89,7 @@
 @media screen and (max-width: 568px) {
 
     body {
-        /*background: pink;*/
+        background: pink;
     }
 
     .container {
@@ -173,7 +173,7 @@
     /*small mobile*/
 
     body {
-        /*background: greenyellow;*/
+        background: greenyellow;
     }
 
     .container {

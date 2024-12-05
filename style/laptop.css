@@ -1,7 +1,7 @@
 /* 992 to 1200*/
 @media screen and (max-width: 1200px) {
     body {
-        /*background: #40cc10;*/
+        background: #40cc10;
     }
     .container {
         max-width: 990px;
