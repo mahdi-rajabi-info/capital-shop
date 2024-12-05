@@ -72,4 +72,20 @@
     .news__card {
         flex-basis: 50%;
     }
+    .cat__category {
+    flex-wrap: wrap;
+    }
+    .cat__box{
+        flex-basis: 48%;
+    }
+    .footer__content{
+        flex-wrap: wrap;
+    }
+    .footer__logo{
+        flex-basis: 50%;
+        /*flex-grow: 1;*/
+    }
+    .footer__item{
+        flex-basis: 30%;
+    }
 }

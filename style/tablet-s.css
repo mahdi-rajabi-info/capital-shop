@@ -73,6 +73,13 @@
         flex-basis: 90%;
         margin: 0 auto;
     }
+    .footer__logo{
+        flex-basis: 50%;
+        /*flex-grow: 1;*/
+    }
+    .footer__item{
+        flex-basis: 100%;
+    }
 }
 
 
@@ -152,6 +159,9 @@
     .news__card{
         flex-basis: 100%;
         margin: 0 auto;
+    }
+    .cat__box{
+        flex-basis: 100%;
     }
 
 }
