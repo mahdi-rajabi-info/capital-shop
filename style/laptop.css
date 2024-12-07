@@ -1,13 +1,13 @@
 /* 992 to 1200*/
 @media screen and (max-width: 1200px) {
     body {
-        background: #40cc10;
+        /*background: #40cc10;*/
     }
     .container {
         max-width: 990px;
     }
     .navigation {
-        max-width: 570px;
+        max-width: 580px;
     }
     .navbar__link {
         padding: .6rem .3rem;
@@ -16,7 +16,8 @@
     }
 
     .nav__access__icon {
-        padding: .5rem;
+        padding: .7rem;
+        font-size: 1.4rem;
     }
     .slider__text {
         font-size: 3rem;
@@ -36,9 +37,6 @@
         flex-wrap: wrap;
     }
 
-    .product {
-        /*flex-basis: 30%;*/
-    }
     .comment {
         width: 70%;
     }
